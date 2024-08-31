@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0; /* fr complete website*/
+}
+.wrapper{
+	align-content: center;
+	width:1450px;
+	position: fixed;
+	
+}
+header{
+	background-color: grey;
+	height: 50vh;
+
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-color: #000075;
+	background-attachment: fixed;
+	overflow-wrap: break-word;
+	
+}
+.nav-area{
+	background-color: rgba(0,0,0,0.6);
+	background-position: 100%;
+	align-content: center;
+	list-style:none;
+	padding: 40px 40px 40px 40px;
+	display: block;
+	top: 0;
+	overflow:hidden;
+
+}
+.nav-area li{
+	display: inline-block;
+
+}
+.nav-area li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: poppins;
+	font-size: 20px;
+}
+
+.nav-area li a:hover{
+		color: pink;
+	}
+.beforescroll{
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+.afterscroll{
+	height:100px;
+	width:100%;
+	display: block;
+	font-family: "Luna";
+	font-size:14px;
+}
+.content{
+	padding:10px;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width: 100%;
+}
+.sticky + .content{
+	padding-top: 102px;
+}
+#i1{
+	position: fixed;
+	top:0;
+	left: 0;
+	align-self: left;
+	background-attachment: fixed;
+}
+body /* header for website*/
+{
+	height: 100vh;
+	background-size: 100%;
+	background-position: center;/* properties of background*/
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	position: relative;
+	box-shadow: 0 2px 4px rgba(0,0,0,0);
+}
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+tr{
+	width: 100%;
+}
+#su{
+	border-bottom-style:2px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	width: 300px;
+
+}
+.n a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
+.f a:link{
+	text-decoration: none;
+	color: white;
+	
+}
+.f a:hover{
+	color: pink;
+}
+.cp
+{
+
+}
+.fo{
+	width: 300px;
+	height: 400px;
+
+}
+.fo input[type="text"]
+{
+	display: block;
+	box-sizing: border-box;
+	width: 500px;
+	height: 32px
+	background:transparent;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid black;
+	color: white;
+	font-weight: bolder;
+	font-family: SESimplex;
+	font-size: 15px;
+	padding:10px 10px 0px 10px;
+}
+.fo input[type="text"]:hover
+{
+	border-width: 4px;
+	border-bottom-color: purple;
+}
+input[type="submit"]
+{
+	background-color: #e6195f;
+	border-color: transparent;
+	width: 500px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+
+}

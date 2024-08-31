@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	align-content: center;
+	width:1450px;
+	position: fixed;
+	
+}
+header{
+	background-color: grey;
+	height: 200vh;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	/*background-image: url("pic3.jpg");*/
+	background-attachment: fixed;
+	overflow-wrap: break-word;
+	
+}
+.container{
+	width: 100%;
+	height: 80%;
+	animation: animate 20s ease infinite;
+	background-size: cover;
+}
+.extra{
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.5)
+}
+
+@keyframes animate{
+	0%{
+		background-image: url("20190502_123956.jpg ");
+	}
+	25%{
+		background-image: url("IMG-20190502-WA0033.jpg");
+	}
+	50%{
+		background-image: url("IMG-20190502-WA0070.v1.cropped.jpg");
+	}
+	75%{
+		background-image: url("IMG-20190502-WA0072.jpg");
+	}
+	100%{
+		background-image: url("IMG-20190502-WA0069.v1.cropped.jpg");
+	}
+}
+.nav-area{
+	background-color: rgba(0,0,0,0.6);
+	background-position: 100%;
+	align-content: center;
+	list-style:none;
+	padding: 40px 40px 40px 40px;
+	display: block;
+	top: 0;
+	overflow:hidden;
+
+}
+.nav-area li{
+	display: inline-block;
+
+}
+.nav-area li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: poppins;
+	font-size: 20px;
+}
+
+.nav-area li a:hover{
+		color: pink;
+	}
+.beforescroll{
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+.afterscroll{
+	height:100px;
+	width:100%;
+	display: block;
+	font-family: "Luna";
+	font-size:14px;
+}
+.content{
+	padding:10px;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width: 100%;
+}
+.sticky + .content{
+	padding-top: 102px;
+}
+
+.second{
+	text-align: center;
+	padding: 40px 40px 40px 40px;
+}
+#i1{
+	position: fixed;
+	top:0;
+	left: 0;
+	align-self: left;
+	background-attachment: fixed;
+}
+/*table .mainev{
+	padding: 0px 10px 10px 300px; 
+	text-align: center; 
+	overflow: hidden;
+	width: 400px; 
+	height: 400px; 
+	background-color: pink;
+}*/
+#ev{
+	position: relative;
+}
+table .mainev{
+	/*background-image: url("2.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 10px 10px 300px; 
+	text-align: center; 
+	overflow: hidden;
+	width: 400px; 
+	height: 300px;
+	background-color: white;
+  
+}
+.one{
+	background-image: url("IMG-20190502-WA0033.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.two{
+	background-image: url("singing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.three{
+	background-image: url("dance2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.four{
+	background-image: url("games.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+table .mainev:hover .one{
+	background-image: none;
+	position: relative;
+}
+table .mainev:hover .two{
+	background-image: none;
+	position: relative;
+}
+table .mainev:hover .three{
+	background-image: none;
+	position: relative;
+}
+table .mainev:hover .four{
+	background-image: none;
+	position: relative;
+}
+
+/*.eff{
+	background-color: lightpink;
+	background-image: none;
+	display: none;
+	transition: 0.5s ease;
+}
+table .mainev .eff .textt{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}*/
+table .mainev:hover {
+	/*height: 400px;
+	margin-top: -10px;
+	margin-left: -300px; 
+	margin-right: -10px;
+	margin-bottom: -20px;
+	display: block;*/
+	background-color: #000075;
+	opacity: 0.8;
+	background-image: none;
+	position: relative;
+	/*filter: blur(8px);
+	-webkit-filter: blur(8px);*/
+}
+table .mainev .te{
+	display: none;
+}
+table .mainev:hover .te{
+	display: block;
+	position: relative;
+}
+table .mainev .button2{
+	opacity: 0;
+}
+table .mainev .button2 a{
+	z-index: 1;
+
+}
+table .mainev:hover .button2{
+	opacity: 1;
+	position: relative;
+}
+
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+tr{
+	width: 100%;
+}
+#su{
+	border-bottom-style:2px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	width: 300px;
+
+}
+.n a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
+.f a:link{
+	text-decoration: none;
+	color: white;
+	
+}
+.f a:hover{
+	color: pink;
+}
+body{
+	position: relative;
+}
+.cl{
+	overflow: hidden;
+	width: 100%;
+}
+.cl a:link{
+	text-decoration: none;
+}
+.cl a:hover{
+	opacity: 0.3;
+	cursor: pointer;
+}
+.conlinks{
+	display: inline-block;
+	width: 100%;
+}

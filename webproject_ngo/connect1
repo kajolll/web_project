@@ -1,0 +1,8 @@
+<?php
+		$fname=filter_input(INPUT_POST, "fname");
+		$lname=filter_input(INPUT_POST, "lname");
+		$email=filter_input(INPUT_POST, "email");
+		$phno=filter_input(INPUT_POST, "phno");
+		$sex=filter_input(INPUT_POST, "sex");
+		$pwd=filter_input(INPUT_POST, "pwd");
+?>

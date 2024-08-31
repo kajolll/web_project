@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0; /* fr complete website*/
+}
+.wrapper{
+	align-content: center;
+	width:1450px;
+	position: fixed;
+	
+}
+header{
+	background-color: grey;
+	height: 100vh;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-image: url("login1.jpg");
+	background-attachment: fixed;
+	overflow-wrap: break-word;
+	
+}
+.nav-area{
+	background-color: rgba(0,0,0,0.6);
+	background-position: 100%;
+	align-content: center;
+	list-style:none;
+	padding: 40px 40px 40px 40px;
+	display: block;
+	top: 0;
+	overflow:hidden;
+
+}
+.nav-area li{
+	display: inline-block;
+
+}
+.nav-area li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: poppins;
+	font-size: 20px;
+}
+
+.nav-area li a:hover{
+		color: pink;
+	}
+.beforescroll{
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+.afterscroll{
+	height:100px;
+	width:100%;
+	display: block;
+	font-family: "Luna";
+	font-size:14px;
+}
+.content{
+	padding:10px;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width: 100%;
+}
+.sticky + .content{
+	padding-top: 102px;
+}
+#i1{
+	position: fixed;
+	top:0;
+	left: 0;
+	align-self: left;
+	background-attachment: fixed;
+}
+body /* header for website*/
+{
+	height: 100vh;
+	background-size: 100%;
+	background-position: center;/* properties of background*/
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	position: relative;
+	box-shadow: 0 2px 4px rgba(0,0,0,0);
+}
+.login-box
+{
+	width: 500px;
+	height:450px;
+	top: 60%;
+	left: 50%;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	border-radius: 25px;
+	transform: translate(+30%,-50%); /* to bring the box to the center*/
+	position: absolute;
+}
+h2
+{
+	margin-top: 40px;
+	font-family: serif;
+	text-align: center;
+	color: #99ccff;
+}
+[type="submit"]
+{
+	min-width:20%;
+	height: 40px;
+	text-align: center;
+	margin-left: 180px;
+	font-family: cambria;
+	font-weight: bolder;
+	font-size: 15px;
+	background: #e6195f;
+	color: #fff;
+	
+}
+#usr,#pwd 
+{
+	/*min-width:50%;
+	height: 30px;
+	border: none;*/
+	border: none;
+	border-bottom: 1px dotted #000;
+	background: transparent;    /*to get the dotted line*/
+	outline: none;
+	height: 30px;
+	min-width:60%;
+	margin-left: 100px;
+	color: white;
+}
+
+[type="submit"]
+{
+	min-width:20%;
+	height: 40px;
+	text-align: center;
+	margin-left: 200px;
+	font-family: cambria;
+	font-weight: bolder;
+	font-size: 15px;
+	background: #e6195f;
+	color: #fff;
+	
+}
+h4
+{
+	font-family: serif;
+	text-align: center;
+	font-weight: lighter;
+	overflow: hidden;
+	color: white;
+}
+h4:before,
+h4:after {
+ background-color: white;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 40%;
+}
+h4:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h4:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+h5
+{
+	font-family: serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover
+{
+	cursor: pointer;
+}
+a{
+	color: #4363d8;
+}
+
+::-moz-placeholder        /* to style the placeholder; for chrome use -webkit- in place of -moz- (mozilla browser)*/
+{
+	font-family: serif;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+table{
+	table-layout: fixed;
+	width: 97%;
+}
+tr{
+	width: 100%;
+}
+#su{
+	border-bottom-style:2px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	width: 300px;
+
+}
+.n a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
+.f a:link{
+	text-decoration: none;
+	color: white;
+	
+}
+.f a:hover{
+	color: pink;
+}
