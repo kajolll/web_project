@@ -1,2 +1,2 @@
 # web_project
-Teach for change - Web project created sing HTML, CSS, JavaScript, PHP. 
+Teach for change - Web project created using HTML, CSS, JavaScript, PHP. 
